@@ -4,7 +4,7 @@
 
 1. Determine whether there are detectable trends in Buy-Margin values at a supplier or overall level over a 10 year period.
 
-2. Build forecast models to predict Buy-Margin percentages in the future
+2. Build forecast models to predict Buy Margin percentages for the year 2022-2023.
 
 ## Forecasts:
 ![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)
@@ -23,10 +23,17 @@
 4.	WAC: Shows the total wholesale and aquisition cost of all drugs/medicines for each supplier
 5.	Sales: Shows the total amount of sales of all drugs/medicines by each supplier
  
-These are the majot factors affecting the buy-margin value. Additonally, all the values are grouped with sales and parent suppliers number to understand 
-a complete analysis of buy-margin value trend, seasonality, variability for parent supplier based on total sales by that parent vendor.
+These are the major factors affecting the buy-margin value. Additonally, all the values are grouped with sales and parent suppliers number for 
+a complete analysis of buy-margin value trend, seasonality, variability for parent supplier based on total sales.
 
+## We helped the client by:
 
+<UL><li>Identifying trends and seasonality in the overall supplier data in comparison with the top 3 suppliers
+
+<li>Forecast models produced for the top 3 suppliers as well as an overall model for all suppliers
+
+<li>Analyzed long-term trends, behaviors, variability, distributions and transformations of top 3 individual suppliers along with the overall model and 
+their impact on the future forecast</ul>
 
 
 
