@@ -35,17 +35,14 @@ a complete analysis of buy-margin value trend, seasonality, variability for pare
 <li>Analyzed long-term trends, behaviors, variability, distributions and transformations of top 3 individual suppliers along with the overall model and 
 their impact on the future forecast</ul>
 
+## Creating meaningful impact:
+
+<ul><li>Created a forecasting model by minimizing the error rate from a 7%-8% range to a range of 2%-4% as per MAE and RMSE for the top 3 suppliers and the overall model.
+<li>Created a report with crucial insights and takeaways for top suppliers in terms of trends, seasonality, variability and forecast accuracy for critical future business decisions. 
 
 
 
-
-
-
-![image](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/a71af435-1e33-4ab8-a83a-4eaf48eb24b3)
-
-
-
-This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, don't use it for making air traffic visibility decsions. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML into practice.
+This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the organization. So, please don't use it for making forecasting decsions. However, this project presents the idea that how we can use Machine learning time-series forecasting into practice and how much ipact we can generate from the same.
 
 ## MOTIVATION 💪
 Air industry is extremely prone to accident and there are various factors responsible such as limited and complicated airspace, visibity etc. This project was created keeping that in mind. This is an application which should just be used by air traffic controllers in any way but a way show the working of an end to end ML project for the domain.
