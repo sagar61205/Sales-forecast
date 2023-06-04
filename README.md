@@ -17,16 +17,25 @@
 
 
 # Features:
-1.	VISIBILITY - Distance from which an object can be seen.
-2.	DRYBULBTEMPF-Dry bulb temperature (degrees Fahrenheit). Most commonly reported standard temperature.
-3.	WETBULBTEMPF-Wet bulb temperature (degrees Fahrenheit).
-4.	DewPointTempF-Dew point temperature (degrees Fahrenheit).
-5.	RelativeHumidity-Relative humidity (percent).
-6.	WindSpeed-Wind speed (miles per hour).
-7.	WindDirection-Wind direction from true north using compass directions.
-8.	StationPressure-Atmospheric pressure (inches of Mercury; or ‘in Hg’).
-9.	SeaLevelPressure- Sea level pressure (in Hg).
-10.	Precip	Total-precipitation in the past hour (in inches).
+1.	Month Year - Shows the month and year for sales, wholesale and aquisition cost, and buy-margin for multiple parent pharmaceutical suppliers.
+2.	Parent supplier number - Shows the corresponding parent suplier supplier number associated with each supplier
+3.	Buy-margin raw dollar - Shows the original buy-margin amount prior to grouping with wholesale and aquisition cost and sales for each supplier
+4.	WAC: Shows the total wholesale and aquisition cost of all drugs/medicines for each supplier
+5.	Sales: Shows the total amount of sales of all drugs/medicines by each supplier
+ 
+These are the majot factors affecting the buy-margin value. Additonally, all the values are grouped with sales and parent suppliers number to understand 
+a complete analysis of buy-margin value trend, seasonality, variability for parent supplier based on total sales by that parent vendor.
+
+
+
+
+
+
+
+
+
+![image](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/a71af435-1e33-4ab8-a83a-4eaf48eb24b3)
+
 
 
 This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, don't use it for making air traffic visibility decsions. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML into practice.
