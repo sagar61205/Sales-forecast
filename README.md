@@ -1,1 +1,1 @@
-# Buy-margin time-series forecast 
+# Buy-margin forecast 
