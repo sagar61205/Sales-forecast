@@ -1,10 +1,13 @@
-# Buy-margin forecasting
+# Sales-margin forecasting
 
 ## Business problem statement:
 
-1. Determine whether there are detectable trends in Buy-Margin values at a supplier or overall level over a 10 year period.
+1. Determine whether there are detectable trends in Sales-Margin values at a supplier or overall(all suppliers) level over a 10-year period.
 
-2. Build forecast models to predict Buy Margin percentages for the year 2022-2023.
+2. Build forecast models to predict Sales-margin percentages for the year 2022-2023.
+
+3. Understand seasonality, trend and variability of Sales-margin for each individual supplier over a 10-year period to understand their 
+behaviour pattern, in order to make better buisness decisions regarding inventory managemnet and competitive inteliigence.
 
 ## Forecasts:
 ![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)
@@ -23,8 +26,8 @@
 4.	WAC: Shows the total wholesale and aquisition cost of all drugs/medicines for each supplier
 5.	Sales: Shows the total amount of sales of all drugs/medicines by each supplier
  
-These are the major factors affecting the buy-margin value. Additonally, all the values are grouped with sales and parent suppliers number for 
-a complete analysis of buy-margin value trend, seasonality, variability for parent supplier based on total sales.
+These are the major factors affecting the sales-margin value. Additonally, all the values are grouped with sales and parent suppliers number for 
+a complete analysis of sales-margin value trend, seasonality, variability for parent supplier based on total sales.
 
 ## We helped the client by:
 
@@ -35,20 +38,24 @@ a complete analysis of buy-margin value trend, seasonality, variability for pare
 <li>Analyzed long-term trends, behaviors, variability, distributions and transformations of top 3 individual suppliers along with the overall model and 
 their impact on the future forecast</ul>
 
+<li>Analyzed behaviour patterns of each supplier, in order to make better business decisions regarding inventory managemnet and competitive inteliigence.</ul>
+
 ## Creating meaningful impact:
 
-<ul><li>Created a forecasting model by minimizing the error rate from a 7%-8% range to a range of 2%-4% as per MAE and RMSE for the top 3 suppliers and the overall model.
+<ul><li>Created a forecasting model by minimizing the error rate from a 10%-15% range to a range of 4%-6% as per the domain and business equiremen.
+ <li>Performance mterics used: MAE and RMSE for the top 3 suppliers and the overall model.
 <li>Created a report with crucial insights and takeaways for top suppliers in terms of trends, seasonality, variability and forecast accuracy for critical future business decisions. 
 
 
-
-This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the organization. So, please don't use it for making forecasting decsions. However, this project presents the idea that how we can use Machine learning time-series forecasting into practice and how much ipact we can generate from the same.
+This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the organization. So, please don't use it for making forecasting decsions. However, this project presents the idea that how we can use Machine learning time-series forecasting into practice and how much impact we can generate from the same.
 
 ## MOTIVATION 💪
-Air industry is extremely prone to accident and there are various factors responsible such as limited and complicated airspace, visibity etc. This project was created keeping that in mind. This is an application which should just be used by air traffic controllers in any way but a way show the working of an end to end ML project for the domain.
+<ul><li>Client required sales-margin values, studied and forecasted for each supplier mainly the top 3 suppliers to make future buisness decisions in terms of inventory management. 
+<li>This was to be done based on the seasonality, trends and behaviour patterns of each of these suppliers in terms of sales values. 
+<li>Having a huge number of suppliers and each top supplier accounting for $5 million, there was no streamlined way and a forecasting model which could help make future descision making. <br/>
+We not only seggregated the data from millions of records but classifed it, restructured it, and created the forecast model based on the 10-year data using ARIMA and SARIMAX.
+<li> fbprophet library and LSTM architecture were also used. However, best results were obtained by using ARIMA.
 
-In this project, I present a website in which the predictions are implemented as; Batch File PRediction(which predicts and generates a new file with predicted values based in the pre-trained model. 
-For the visibility predicting application, the user can input the data and the application will predict the number of visibility for air traffic.
 
 
 ## Built with 🛠️
