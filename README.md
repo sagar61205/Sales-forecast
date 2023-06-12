@@ -67,9 +67,9 @@ We not only seggregated the data from millions of records but classifed it, rest
  
 #### Insights:
   <ul>
-   <li>Seasonality was present in the top 1 individual supplier.
+   <li>Seasonality is present in the top 1 individual supplier.
    <li>Sales-margin % is stable across time but long-term trends vary.
-   <li>Showed no long-term trend in monthly sales-margin either.
+   <li>Shows no long-term trend in monthly sales-margin either.
   </ul>  
 
  
@@ -80,7 +80,7 @@ We not only seggregated the data from millions of records but classifed it, rest
  #### Insights:
  
    <ul>
-   <li>Seasonality was present in the top 2 individual supplier.
+   <li>Seasonality is present in the top 2 individual supplier.
    <li>Sales-margin(%) is stable across time but long-term trends vary.
    <li>Sales-margin has declined somewhat over time, but appears to possibly be bouncing back.
   </ul>  
@@ -92,7 +92,7 @@ We not only seggregated the data from millions of records but classifed it, rest
  #### Insights:
  
    <ul>
-   <li>Seasonality was present in the top 3 individual supplier.
+   <li>Seasonality is present in the top 3 individual supplier.
    <li>Sales-margin(%) is stable across time but again, long-term trends vary.
    <li>Sales-margin(%) has also changed over time, and appears to have become more variable month to month in the past couple years.
 
@@ -104,7 +104,7 @@ We not only seggregated the data from millions of records but classifed it, rest
  #### Insights:
  
    <ul>
-   <li>Seasonality was present in the overall model.
+   <li>Seasonality is present in the overall model.
    <li>Sales-margin(%) is stable across time.
   </ul>   
  
