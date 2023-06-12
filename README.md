@@ -31,21 +31,20 @@ a complete analysis of sales-margin value trend, seasonality, variability for pa
 
 ## We helped the client by:
 
-<UL><li>Identifying trends and seasonality in the overall supplier data in comparison with the top 3 suppliers
-
+<UL>
+<li>Identifying trends and seasonality in the overall supplier data in comparison with the top 3 suppliers
 <li>Forecast models produced for the top 3 suppliers as well as an overall model for all suppliers
-
 <li>Analyzed long-term trends, behaviors, variability, distributions and transformations of top 3 individual suppliers along with the overall model and 
-their impact on the future forecast</ul>
-
+their impact on the future forecast
 <li>Analyzed behaviour patterns of each supplier, in order to make better business decisions regarding inventory managemnet and competitive inteliigence.</ul>
 
 ## Creating meaningful impact:
 
-<ul><li>Created a forecasting model by minimizing the error rate from a 10%-15% range to a range of 4%-6% as per the domain and business equiremen.
- <li>Performance mterics used: MAE and RMSE for the top 3 suppliers and the overall model.
+<ul>
+<li>Created a forecasting model by minimizing the error rate from a 10%-15% range to a range of 4%-6% as per the domain and business equiremen.
+<li>Performance mterics used: MAE and RMSE for the top 3 suppliers and the overall model.
 <li>Created a report with crucial insights and takeaways for top suppliers in terms of trends, seasonality, variability and forecast accuracy for critical future business decisions. 
-
+</ul>
 
 This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the organization. So, please don't use it for making forecasting decsions. However, this project presents the idea that how we can use Machine learning time-series forecasting into practice and how much impact we can generate from the same.
 
@@ -63,10 +62,51 @@ We not only seggregated the data from millions of records but classifed it, rest
 
 
 ## FORECASTS AND INSIGHTS 🚀 ## Insighs for each supplier and overall suppliers and try to put the html file in here and put the link forthe same files
+#### Top supplier 1:
+ ![newplot (1)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8)
+ 
+#### Insights:
+  <ul>
+   <li>Seasonality was present in the top 1 individual supplier.
+   <li>Sales-margin % is stable across time but long-term trends vary.
+   <li>Showed no long-term trend in monthly sales-margin either.
+  </ul>  
 
-Github page: https://sagar61205.github.io/Air-traffic-assistance-system/ <br/> ## change this
+ #### Top supplier 2:
+ ![newplot (2)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d)
+ 
+ #### Insights:
+ 
+   <ul>
+   <li>Seasonality was present in the top 2 individual supplier.
+   <li>Sales-margin(%) is stable across time but long-term trends vary.
+   <li>Sales-margin has declined somewhat over time, but appears to possibly be bouncing back.
+  </ul>  
+ 
 
+ #### Top supplier 3:
+ ![newplot (3)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff)
+ 
+ #### Insights:
+ 
+   <ul>
+   <li>Seasonality was present in the top 3 individual supplier.
+   <li>Sales-margin(%) is stable across time but again, long-term trends vary.
+   <li>Sales-margin(%) has also changed over time, and appears to have become more variable month to month in the past couple years.
 
+  </ul>   
+ 
+
+  #### Overall model(all suppliers):
+ ![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)
+ 
+ #### Insights:
+ 
+   <ul>
+   <li>Seasonality was present in the overall model.
+   <li>Sales-margin(%) is stable across time.
+  </ul>   
+ 
 
 
 
