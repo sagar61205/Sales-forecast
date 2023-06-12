@@ -62,7 +62,7 @@ We not only seggregated the data from millions of records but classifed it, rest
 
 
 ## FORECASTS AND INSIGHTS 🚀 
-#### Top supplier 1:
+### Top supplier 1:
  ![newplot (1)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8)
  
 #### Insights:
@@ -74,7 +74,7 @@ We not only seggregated the data from millions of records but classifed it, rest
 
  
 
- #### Top supplier 2:
+ ### Top supplier 2:
  ![newplot (2)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d)
  
  #### Insights:
@@ -86,7 +86,7 @@ We not only seggregated the data from millions of records but classifed it, rest
   </ul>  
  
  
- #### Top supplier 3:
+ ### Top supplier 3:
  ![newplot (3)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff)
  
  #### Insights:
@@ -98,7 +98,7 @@ We not only seggregated the data from millions of records but classifed it, rest
 
   </ul>   
  
-  #### Overall model(all suppliers):
+  ### Overall model(all suppliers):
  ![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)
  
  #### Insights:
