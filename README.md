@@ -72,6 +72,8 @@ We not only seggregated the data from millions of records but classifed it, rest
    <li>Showed no long-term trend in monthly sales-margin either.
   </ul>  
 
+ 
+
  #### Top supplier 2:
  ![newplot (2)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d)
  
@@ -83,7 +85,7 @@ We not only seggregated the data from millions of records but classifed it, rest
    <li>Sales-margin has declined somewhat over time, but appears to possibly be bouncing back.
   </ul>  
  
-
+ 
  #### Top supplier 3:
  ![newplot (3)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff)
  
@@ -96,7 +98,6 @@ We not only seggregated the data from millions of records but classifed it, rest
 
   </ul>   
  
-
   #### Overall model(all suppliers):
  ![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)
  
