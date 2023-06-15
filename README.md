@@ -72,6 +72,8 @@ We not only seggregated the data from millions of records but classifed it, rest
    <li>Shows no long-term trend in monthly sales-margin either.
   </ul>  
 
+#### Click the following link for interactive plot:
+[Top supplier 1.html](https://htmlpreview.github.io/https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%201.html)
  
 
  ### Top supplier 2:
