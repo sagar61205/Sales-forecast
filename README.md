@@ -72,8 +72,13 @@ We not only seggregated the data from millions of records but classifed it, rest
    <li>Shows no long-term trend in monthly sales-margin either.
   </ul>  
 
-#### Click the following link for interactive plot:
-[Top supplier 1.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%201.html)
+  
+#### Interactive plot:
+
+[Screencast from 07-07-23 10:22:03 PM IST.webm](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/704112f0-d691-4639-9dd4-9e3744595dd0)
+
+
+#### [Click here to explore the interactive plot for Top supplier 1 (as shown in the video above)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%201.html)
  
 
  ### Top supplier 2:
@@ -87,8 +92,15 @@ We not only seggregated the data from millions of records but classifed it, rest
    <li>Sales-margin has declined somewhat over time, but appears to possibly be bouncing back.
   </ul>  
 
-#### Click the following link for interactive plot:
-[Top supplier 2.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%202.html)
+
+ #### Interactive plot:
+
+[Screencast.webm](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/b1256d14-f158-41c2-bec8-74af307a7cbc)
+
+
+#### [[Click here to explore the interactive plot for Top supplier 2 (as shown in the video above)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%202.html)
+
+
  
  ### Top supplier 3:
  ![newplot (3)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff)
@@ -102,9 +114,14 @@ We not only seggregated the data from millions of records but classifed it, rest
 
   </ul>   
 
-  
-#### Click the following link for interactive plot:
-[Top supplier 3.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%203.html)
+#### Interactive plot:
+
+[Top supplier 3.webm](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/c3c1ad29-e64f-483b-932c-835e58a1a2d4)
+
+
+
+ 
+#### [Click here to explore the interactive plot for Top supplier 3 (as shown in the video above)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%203.html)
 
 
  
@@ -118,8 +135,13 @@ We not only seggregated the data from millions of records but classifed it, rest
    <li>Sales-margin(%) is stable across time.
   </ul>   
  
+#### Interactive plot:
 
-#### Click the following link for interactive plot:
-[Overall model.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/overall%20model.html)
+
+[overall model.webm](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/23491b94-7aab-435f-9ac2-09a7343743bb)
+
+
+
+#### [Click here to explore the interactive plot for the Overall Model(as shown in the video above).html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/overall%20model.html)
 
 
