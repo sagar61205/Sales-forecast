@@ -61,39 +61,37 @@ We not only seggregated the data from millions of records but classifed it, rest
 
 
 ## FORECASTS AND INSIGHTS 🚀 
+
 ### Top supplier 1:
- ![newplot (1)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8)
+![newplot (1)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8)
  
 #### Insights:
-  <ul>
-   <li>Seasonality is present in the top 1 individual supplier.
-   <li>Sales-margin % is stable across time but long-term trends vary.
-   <li>Shows no long-term trend in monthly sales-margin either.
-  </ul>  
+<ul>
+<li>Seasonality is present in the top 1 individual supplier.
+<li>Sales-margin % is stable across time but long-term trends vary.
+<li>Shows no long-term trend in monthly sales-margin either.
+</ul>  
 
   
 #### Interactive plot:
-
 [Screencast from 07-07-23 10:22:03 PM IST.webm](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/704112f0-d691-4639-9dd4-9e3744595dd0)
 
 
 #### [Click here to explore the interactive plot for Top supplier 1 (as shown in the video above)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%201.html)
  
 
- ### Top supplier 2:
- ![newplot (2)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d)
+### Top supplier 2:
+![newplot (2)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d)
  
- #### Insights:
- 
-   <ul>
-   <li>Seasonality is present in the top 2 individual supplier.
-   <li>Sales-margin(%) is stable across time but long-term trends vary.
-   <li>Sales-margin has declined somewhat over time, but appears to possibly be bouncing back.
-  </ul>  
+#### Insights:
+<ul>
+<li>Seasonality is present in the top 2 individual supplier.
+<li>Sales-margin(%) is stable across time but long-term trends vary.
+<li>Sales-margin has declined somewhat over time, but appears to possibly be bouncing back.
+</ul>  
 
 
- #### Interactive plot:
-
+#### Interactive plot:
 [Screencast.webm](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/b1256d14-f158-41c2-bec8-74af307a7cbc)
 
 
@@ -101,45 +99,37 @@ We not only seggregated the data from millions of records but classifed it, rest
 
 
  
- ### Top supplier 3:
- ![newplot (3)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff)
+### Top supplier 3:
+![newplot (3)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff)
 
- #### Insights:
- 
-   <ul>
-   <li>Seasonality is present in the top 3 individual supplier.
-   <li>Sales-margin(%) is stable across time but again, long-term trends vary.
-   <li>Sales-margin(%) has also changed over time, and appears to have become more variable month to month in the past couple years.
-
-  </ul>   
+#### Insights:
+<ul>
+<li>Seasonality is present in the top 3 individual supplier.
+<li>Sales-margin(%) is stable across time but again, long-term trends vary.
+<li>Sales-margin(%) has also changed over time, and appears to have become more variable month to month in the past couple years.
+</ul>   
 
 #### Interactive plot:
 
 [Top supplier 3.webm](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/c3c1ad29-e64f-483b-932c-835e58a1a2d4)
 
-
-
- 
 #### [Click here to explore the interactive plot for Top supplier 3 (as shown in the video above)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%203.html)
 
 
  
 ### Overall model(all suppliers):
- ![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)
+![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)
  
- #### Insights:
- 
-   <ul>
-   <li>Seasonality is present in the overall model.
-   <li>Sales-margin(%) is stable across time.
-  </ul>   
+#### Insights:
+<ul>
+<li>Seasonality is present in the overall model.
+<li>Sales-margin(%) is stable across time.
+</ul>   
  
 #### Interactive plot:
 
 
 [overall model.webm](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/23491b94-7aab-435f-9ac2-09a7343743bb)
-
-
 
 #### [Click here to explore the interactive plot for the Overall Model(as shown in the video above).html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/overall%20model.html)
 
