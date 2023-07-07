@@ -73,7 +73,7 @@ We not only seggregated the data from millions of records but classifed it, rest
   </ul>  
 
 #### Click the following link for interactive plot:
-[Top supplier 1.html](https://htmlpreview.github.io/https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%201.html)
+[Top supplier 1.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%201.html)
  
 
  ### Top supplier 2:
@@ -86,11 +86,13 @@ We not only seggregated the data from millions of records but classifed it, rest
    <li>Sales-margin(%) is stable across time but long-term trends vary.
    <li>Sales-margin has declined somewhat over time, but appears to possibly be bouncing back.
   </ul>  
- 
+
+#### Click the following link for interactive plot:
+[Top supplier 2.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%202.html)
  
  ### Top supplier 3:
  ![newplot (3)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff)
- 
+
  #### Insights:
  
    <ul>
@@ -99,8 +101,14 @@ We not only seggregated the data from millions of records but classifed it, rest
    <li>Sales-margin(%) has also changed over time, and appears to have become more variable month to month in the past couple years.
 
   </ul>   
+
+  
+#### Click the following link for interactive plot:
+[Top supplier 3.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%203.html)
+
+
  
-  ### Overall model(all suppliers):
+### Overall model(all suppliers):
  ![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)
  
  #### Insights:
@@ -111,6 +119,7 @@ We not only seggregated the data from millions of records but classifed it, rest
   </ul>   
  
 
-
+#### Click the following link for interactive plot:
+[Overall model.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/overall%20model.html)
 
 
