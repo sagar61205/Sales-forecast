@@ -75,10 +75,8 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
 
   
 #### Interactive plot:
-[Top supplier 1](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/704112f0-d691-4639-9dd4-9e3744595dd0)
 
-
-#### [Click here to explore the interactive plot for Top supplier 1 (as shown in the video above)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%201.html)
+#### [Click here to explore the interactive plot for Top supplier 1](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%201.html)
  
 
 ### Top supplier 2:
@@ -93,11 +91,8 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
 
 
 #### Interactive plot:
-[Top supplier 2](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/b1256d14-f158-41c2-bec8-74af307a7cbc)
 
-https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/1abc49ec-90f8-4572-badc-f603563b1448
-
-#### [[Click here to explore the interactive plot for Top supplier 2 (as shown in the video above)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%202.html)
+#### [Click here to explore the interactive plot for Top supplier 2](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%202.html)
 
 
  
@@ -113,9 +108,7 @@ https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/1abc49ec-90f8
 
 #### Interactive plot:
 
-[Top supplier 3](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/c3c1ad29-e64f-483b-932c-835e58a1a2d4)
-
-#### [Click here to explore the interactive plot for Top supplier 3 (as shown in the video above)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%203.html)
+#### [Click here to explore the interactive plot for Top supplier 3](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/Top%20supplier%203.html)
 
 
  
@@ -130,9 +123,6 @@ https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/1abc49ec-90f8
  
 #### Interactive plot:
 
-
-[Overall model.webm](https://github.com/sagar61205/Sales-margin-forecast/assets/5305547/23491b94-7aab-435f-9ac2-09a7343743bb)
-
-#### [Click here to explore the interactive plot for the Overall Model(as shown in the video above).html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/overall%20model.html)
+#### [Click here to explore the interactive plot for the Overall Model.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sagar61205/Sales-margin-forecast/main/overall%20model.html)
 
 
