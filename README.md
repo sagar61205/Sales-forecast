@@ -51,9 +51,9 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
 ## MOTIVATION 💪
 <ul>
 <li>Client required sales-margin values, studied and forecasted for each supplier mainly the top 3 suppliers to make future buisness decisions in terms of inventory management. </li>
-<li>This was to be done based on the seasonality, trends and behaviour patterns of each of these suppliers in terms of sales values. 
-<li>Having a huge number of suppliers and each top supplier accounting for $5 million, there was no streamlined way and a forecasting model which could help make future descision making. </li><br/>
-We not only seggregated the data from millions of records but classifed it, restructured it, and created the forecast model based on the 10-year data using ARIMA and SARIMAX.
+<li>This was to be done based on the seasonality, trends and behaviour patterns of each of these suppliers in terms of sales values. </li>
+<li>Having a huge number of suppliers and each top supplier accounting for $5 million, there was no streamlined way and a forecasting model which could help make future descision making. </li>
+<li>We not only seggregated the data from millions of records but classifed it, restructured it, and created the forecast model based on the 10-year data using ARIMA and SARIMAX.</li>
 <li>fbprophet library and LSTM architecture were also used. However, best results were obtained by using ARIMA.</li>
 </ul>
 
