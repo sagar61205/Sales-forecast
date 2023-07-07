@@ -32,29 +32,29 @@ a complete analysis of sales-margin value trend, seasonality, variability for pa
 ## We helped the client by:
 
 <ul>
-<li>Identifying trends and seasonality in the overall supplier data in comparison with the top 3 suppliers
-<li>Forecast models produced for the top 3 suppliers as well as an overall model for all suppliers
+<li>Identifying trends and seasonality in the overall supplier data in comparison with the top 3 suppliers</li>
+<li>Forecast models produced for the top 3 suppliers as well as an overall model for all suppliers</li>
 <li>Analyzed long-term trends, behaviors, variability, distributions and transformations of top 3 individual suppliers along with the overall model and 
-their impact on the future forecast
-<li>Analyzed behaviour patterns of each supplier, in order to make better business decisions regarding inventory managemnet and competitive inteliigence.
+their impact on the future forecast</li>
+<li>Analyzed behaviour patterns of each supplier, in order to make better business decisions regarding inventory managemnet and competitive inteliigence.</li>
 </ul>
 
 ## Creating meaningful impact:
 <ul>
-<li>Created a forecasting model by minimizing the error rate from a 10%-15% range to a range of 4%-6% as per the domain and business equiremen.
-<li>Performance mterics used: MAE and RMSE for the top 3 suppliers and the overall model.
-<li>Created a report with crucial insights and takeaways for top suppliers in terms of trends, seasonality, variability and forecast accuracy for critical future business decisions. 
+<li>Created a forecasting model by minimizing the error rate from a 10%-15% range to a range of 4%-6% as per the domain and business equiremen.</li>
+<li>Performance mterics used: MAE and RMSE for the top 3 suppliers and the overall model.</li>
+<li>Created a report with crucial insights and takeaways for top suppliers in terms of trends, seasonality, variability and forecast accuracy for critical future business decisions.</li>
 </ul>
 
 This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the organization. So, please don't use it for making forecasting decsions. However, this project presents the idea that how we can use Machine learning time-series forecasting into practice and how much impact we can generate from the same.
 
 ## MOTIVATION 💪
 <ul>
-<li>Client required sales-margin values, studied and forecasted for each supplier mainly the top 3 suppliers to make future buisness decisions in terms of inventory management. 
+<li>Client required sales-margin values, studied and forecasted for each supplier mainly the top 3 suppliers to make future buisness decisions in terms of inventory management. </li>
 <li>This was to be done based on the seasonality, trends and behaviour patterns of each of these suppliers in terms of sales values. 
-<li>Having a huge number of suppliers and each top supplier accounting for $5 million, there was no streamlined way and a forecasting model which could help make future descision making. <br/>
+<li>Having a huge number of suppliers and each top supplier accounting for $5 million, there was no streamlined way and a forecasting model which could help make future descision making. </li><br/>
 We not only seggregated the data from millions of records but classifed it, restructured it, and created the forecast model based on the 10-year data using ARIMA and SARIMAX.
-<li>fbprophet library and LSTM architecture were also used. However, best results were obtained by using ARIMA.
+<li>fbprophet library and LSTM architecture were also used. However, best results were obtained by using ARIMA.</li>
 </ul>
 
 ## Built with 🛠️
@@ -68,9 +68,9 @@ We not only seggregated the data from millions of records but classifed it, rest
  
 #### Insights:
 <ul>
-<li>Seasonality is present in the top 1 individual supplier.
-<li>Sales-margin % is stable across time but long-term trends vary.
-<li>Shows no long-term trend in monthly sales-margin either.
+<li>Seasonality is present in the top 1 individual supplier.</li>
+<li>Sales-margin % is stable across time but long-term trends vary.</li>
+<li>Shows no long-term trend in monthly sales-margin either.</li>
 </ul>  
 
   
@@ -86,9 +86,9 @@ We not only seggregated the data from millions of records but classifed it, rest
  
 #### Insights:
 <ul>
-<li>Seasonality is present in the top 2 individual supplier.
-<li>Sales-margin(%) is stable across time but long-term trends vary.
-<li>Sales-margin has declined somewhat over time, but appears to possibly be bouncing back.
+<li>Seasonality is present in the top 2 individual supplier.</li>
+<li>Sales-margin(%) is stable across time but long-term trends vary.</li>
+<li>Sales-margin has declined somewhat over time, but appears to possibly be bouncing back.</li>
 </ul>  
 
 
@@ -105,9 +105,9 @@ We not only seggregated the data from millions of records but classifed it, rest
 
 #### Insights:
 <ul>
-<li>Seasonality is present in the top 3 individual supplier.
-<li>Sales-margin(%) is stable across time but again, long-term trends vary.
-<li>Sales-margin(%) has also changed over time, and appears to have become more variable month to month in the past couple years.
+<li>Seasonality is present in the top 3 individual supplier.</li>
+<li>Sales-margin(%) is stable across time but again, long-term trends vary.</li>
+<li>Sales-margin(%) has also changed over time, and appears to have become more variable month to month in the past couple years.</li>
 </ul>   
 
 #### Interactive plot:
@@ -123,8 +123,8 @@ We not only seggregated the data from millions of records but classifed it, rest
  
 #### Insights:
 <ul>
-<li>Seasonality is present in the overall model.
-<li>Sales-margin(%) is stable across time.
+<li>Seasonality is present in the overall model.</li>
+<li>Sales-margin(%) is stable across time.</li>
 </ul>   
  
 #### Interactive plot:
