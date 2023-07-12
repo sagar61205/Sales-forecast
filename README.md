@@ -41,7 +41,7 @@ their impact on the future forecast</li>
 
 ## Creating meaningful impact:
 <ul>
-<li>Created a forecasting model by minimizing the error rate from a 10%-15% range to a range of 4%-6% as per the domain and business equiremen.</li>
+<li>Created a forecasting model by minimizing the error rate from a 10%-15% range to a range of 4%-6% as per the domain and business requirement.</li>
 <li>Performance mterics used: MAE and RMSE for the top 3 suppliers and the overall model.</li>
 <li>Created a report with crucial insights and takeaways for top suppliers in terms of trends, seasonality, variability and forecast accuracy for critical future business decisions.</li>
 </ul>
