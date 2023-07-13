@@ -7,7 +7,7 @@
 2. Build forecast models to predict Sales-margin percentages for the year 2022-2023.
 
 3. Understand seasonality, trend and variability of Sales-margin for each individual supplier over a 10-year period to understand their 
-behaviour pattern, in order to make better buisness decisions regarding inventory managemnet and competitive inteliigence.
+behavior pattern, in order to make better buisness decisions regarding inventory management and competitive intelligence.
 
 ## Forecasts:
 ![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)
