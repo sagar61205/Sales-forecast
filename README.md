@@ -14,10 +14,6 @@ behavior pattern, in order to make better buisness decisions regarding inventory
 
 ![newplot (1)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8)
 
-![newplot (2)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d)
-
-![newplot (3)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff)
-
 
 # Features:
 1.	Month Year - Shows the month and year for sales, wholesale and aquisition cost, and buy-margin for multiple parent pharmaceutical suppliers.
