@@ -1,4 +1,4 @@
-# Sales-margin forecasting
+# Sales-forecasting
 
 ## Business problem statement:
 
