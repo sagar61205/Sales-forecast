@@ -1,5 +1,8 @@
 # Sales-forecasting
 
+## Business impact: Increased sales revenue by 5.3% by analysing sales and sales‑margin data, identifying long‑term trends and behaviours of
+the top three suppliers, and integrating findings into forecasting for FY2022–2023.
+
 ## Business problem statement:
 
 1. Determine whether there are detectable trends in Sales-Margin values at a supplier or overall(all suppliers) level over a 10-year period.
