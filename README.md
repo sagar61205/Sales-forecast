@@ -34,6 +34,7 @@ Technical Implementation
     Strategic Decision Making: Enabled data-driven inventory planning and competitive intelligence
 
 <h4>🏗️ Technical Architecture</h4>
+<div>
 <img width="606" height="356" alt="Image" src="https://github.com/user-attachments/assets/6a2ca7cc-0091-4c42-bb3f-9e5939efe63f" />
 <h4>📈 Key Insights Delivered</h4>
 Overall Supplier Trends
@@ -70,6 +71,8 @@ Supplier #3:
 
     Requires dynamic inventory adjustment strategies
 
+</div>    
+
 <h4>🛠️ Technical Stack</h4>
 
 Data Processing & Analysis: Python, Pandas, NumPy, Scikit-learn, Statsmodels
@@ -88,23 +91,24 @@ Tools: Git, Jupyter Notebook, VS Code
 <h4>🔍 Interactive Forecast Visualizations</h4>
 <div align="left">
 <h5>Supplier	Forecast Visualization	Interactive Analysis</h5>
-<ul><li>Overall Model:	https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00
-<li>Top Supplier 1:	https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8	</li>
-<li>Top Supplier 2:	https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d	</li>
-<li>Top Supplier 3:	https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff	</li></ul>
+<ul><li><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00">Overall Model</li></a>	
+<li><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8">Top Supplier 1 </li></a>
+<li><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d"> Top Supplier 2 </li></a>
+<li><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff">Top Supplier 3</li></a></ul>
 </div>
 
 <h4>💡 Business Value Delivered</h4>
 
-    Inventory Optimization: Reduced stockouts and overstock situations through accurate forecasting
+    1) Inventory Optimization: Reduced stockouts and overstock situations through accurate forecasting</li></ul>
 
-    Supplier Management: Enabled strategic negotiations with top-performing suppliers
+    2) Supplier Management: Enabled strategic negotiations with top-performing suppliers
 
-    Revenue Growth: 5.3% sales increase through better inventory alignment with demand patterns
+    3) Revenue Growth: 5.3% sales increase through better inventory alignment with demand patterns
 
-    Risk Mitigation: Identified changing supplier patterns enabling proactive strategy adjustments
+    4) Risk Mitigation: Identified changing supplier patterns enabling proactive strategy adjustments
 
-    Competitive Intelligence: Mapped supplier behavior patterns for market advantage
+    5) Competitive Intelligence: Mapped supplier behavior patterns for market advantage
+
 <h4>⚠️ Disclaimer</h4>
 
 This project serves as a Proof of Concept (POC). The data used comes with no guarantee from the organization and should not be used for actual forecasting decisions. This project demonstrates how machine learning time-series forecasting can be applied in practice and the potential impact it can generate.
