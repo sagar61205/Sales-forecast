@@ -1,4 +1,4 @@
-# AI-Powered Sales Forecasting Engine
+<h1 align = "center"> AI-Powered Sales Forecasting Engine</h1>
 
 <h3 align="center">Boosted sales by 5.3% by deploying a predictive forecasting model that optimized inventory and identified high-margin opportunities</h3><p align="center"> <a href="https://sagar61205.github.io/Sales-forecast/">View the Interactive App</a> • <a href="https://github.com/sagar61205/Sales-forecast">View the Code</a> </p>
 
