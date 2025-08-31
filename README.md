@@ -34,9 +34,9 @@ Technical Implementation
     Strategic Decision Making: Enabled data-driven inventory planning and competitive intelligence
 
 <h4>🏗️ Technical Architecture</h4>
-<div>
 <img width="606" height="356" alt="Image" src="https://github.com/user-attachments/assets/6a2ca7cc-0091-4c42-bb3f-9e5939efe63f" />
-<h4>📈 Key Insights Delivered</h4>
+<h4>📈 Key Insights Delivered</h4
+<div>                              
 Overall Supplier Trends
 
     Detected clear seasonality patterns across all suppliers
@@ -71,8 +71,7 @@ Supplier #3:
 
     Requires dynamic inventory adjustment strategies
 
-</div>    
-
+</div>  
 <h4>🛠️ Technical Stack</h4>
 
 Data Processing & Analysis: Python, Pandas, NumPy, Scikit-learn, Statsmodels
@@ -99,7 +98,7 @@ Tools: Git, Jupyter Notebook, VS Code
 
 <h4>💡 Business Value Delivered</h4>
 
-    1) Inventory Optimization: Reduced stockouts and overstock situations through accurate forecasting</li></ul>
+    1) Inventory Optimization: Reduced stockouts and overstock situations through accurate forecasting
 
     2) Supplier Management: Enabled strategic negotiations with top-performing suppliers
 
