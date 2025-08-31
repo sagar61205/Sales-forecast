@@ -34,8 +34,7 @@ Technical Implementation
     Strategic Decision Making: Enabled data-driven inventory planning and competitive intelligence
 
 <h4>🏗️ Technical Architecture</h4>
-Diagram
-Code
+<img width="606" height="356" alt="Image" src="https://github.com/user-attachments/assets/6a2ca7cc-0091-4c42-bb3f-9e5939efe63f" />
 <h4>📈 Key Insights Delivered</h4>
 Overall Supplier Trends
 
