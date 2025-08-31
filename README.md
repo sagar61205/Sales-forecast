@@ -91,10 +91,14 @@ Tools: Git, Jupyter Notebook, VS Code
 
 <h5>Supplier	Forecast Visualization - Interactive Analysis</h5>
 <h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00">Overall Model<br>
-![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)</a></h6>
-<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8">Top Supplier 1</a></h6>
-<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d"> Top Supplier 2</a></h6>
-<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff">Top Supplier 3</a></h6>
+<img width="1249" height="492" alt="Image" src="https://github.com/user-attachments/assets/bba73476-695c-4385-a6a2-b7250977e8c9" /></a></h6>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8">Top Supplier 1<br>
+<img width="1266" height="495" alt="Image" src="https://github.com/user-attachments/assets/dd0ab997-6861-4f5a-accf-9e175b97c3d8" /></a></h6>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d"> Top Supplier 2<br>
+<img width="1266" height="495" alt="Image" src="https://github.com/user-attachments/assets/8491c867-a981-4df0-be10-3c80de0efb01" />
+</a></h6>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff">Top Supplier 3
+<img width="1270" height="494" alt="Image" src="https://github.com/user-attachments/assets/cb81b72e-ef51-48ed-9f97-0903b3480c25" /></a></h6>
 
 
 <h4>💡 Business Value Delivered </h4>
