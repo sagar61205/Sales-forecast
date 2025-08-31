@@ -6,7 +6,7 @@
 
 The client faced significant challenges in pharmaceutical supply chain management:
 
-    Trend Detection: Needed to identify detectable trends in Sales-Margin values at supplier and overall levels over a 10-year period
+        Trend Detection: Needed to identify detectable trends in Sales-Margin values at supplier and overall levels over a 10-year period
 
     Accurate Forecasting: Required reliable forecast models to predict Sales-margin percentages for 2022-2023
 
@@ -75,11 +75,11 @@ Supplier #3:
 
 <h4>🛠️ Technical Stack</h4>
 
-Data Processing & Analysis: Python, Pandas, NumPy, Scikit-learn, Statsmodels
-Time Series Forecasting: ARIMA and SARIMAX
-Data Visualization: Matplotlib, Seaborn, Plotly
-Deployment: Streamlit, Docker
-Tools: Git, Jupyter Notebook, VS Code
+Data Processing & Analysis: Python, Pandas, NumPy, Scikit-learn, Statsmodels<br>
+Time Series Forecasting: ARIMA and SARIMAX<br>
+Data Visualization: Matplotlib, Seaborn, Plotly<br>
+Deployment: Streamlit, Docker<br>
+Tools: Git, Jupyter Notebook, VS Code<br>
 <h4>📊 Performance Metrics</h4>
 
     MAE (Mean Absolute Error): 4-6% range across models
