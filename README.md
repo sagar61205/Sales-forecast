@@ -34,7 +34,8 @@ Technical Implementation
     Strategic Decision Making: Enabled data-driven inventory planning and competitive intelligence
 
 <h4>🏗️ Technical Architecture</h4>
-<img width="606" height="356" alt="Image" src="https://github.com/user-attachments/assets/6a2ca7cc-0091-4c42-bb3f-9e5939efe63f" />
+<img width="640" height="320" alt="Image" src="https://github.com/user-attachments/assets/22b13a4d-a639-4d44-9ab8-425645423491" />
+
 <h4>📈 Key Insights Delivered</h4
                             
 Overall Supplier Trends
@@ -74,40 +75,39 @@ Supplier #3:
 
 <h4>🛠️ Technical Stack</h4>
 
-    Data Processing & Analysis: Python, Pandas, NumPy, Scikit-learn, Statsmodels
-    Time Series Forecasting: ARIMA and SARIMAX
-    Data Visualization: Matplotlib, Seaborn, Plotly
-    Deployment: Streamlit, Docker
-    Tools: Git, Jupyter Notebook, VS Code
-
+Data Processing & Analysis: Python, Pandas, NumPy, Scikit-learn, Statsmodels
+Time Series Forecasting: ARIMA and SARIMAX
+Data Visualization: Matplotlib, Seaborn, Plotly
+Deployment: Streamlit, Docker
+Tools: Git, Jupyter Notebook, VS Code
 <h4>📊 Performance Metrics</h4>
 
     MAE (Mean Absolute Error): 4-6% range across models
 
-    MSE (Root Mean Square Error): Optimized for business requirements
+    RMSE (Root Mean Square Error): Optimized for business requirements
 
     Error Reduction: From 10-15% down to 4-6% (60%+ improvement)
-
 <h4>🔍 Interactive Forecast Visualizations</h4>
 
 <h5>Supplier	Forecast Visualization - Interactive Analysis</h5>
-<ul><li><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00">Overall Model</li></a>	
-<li><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8">Top Supplier 1 </li></a>
-<li><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d"> Top Supplier 2 </li></a>
-<li><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff">Top Supplier 3</li></a></ul>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00">Overall Model<br>
+![overall ](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00)</a></h6>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8">Top Supplier 1</a></h6>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d"> Top Supplier 2</a></h6>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff">Top Supplier 3</a></h6>
 
 
-<h4>💡 Business Value Delivered</h4>
+<h4>💡 Business Value Delivered </h4>
 
-    1) Inventory Optimization: Reduced stockouts and overstock situations through accurate forecasting<br>
+    Inventory Optimization: Reduced stockouts and overstock situations through accurate forecasting
 
-    2) Supplier Management: Enabled strategic negotiations with top-performing suppliers<br>
+    Supplier Management: Enabled strategic negotiations with top-performing suppliers
 
-    3) Revenue Growth: 5.3% sales increase through better inventory alignment with demand patterns<b>
+    Revenue Growth: 5.3% sales increase through better inventory alignment with demand patterns
 
-    4) Risk Mitigation: Identified changing supplier patterns enabling proactive strategy adjustments<br>
+    Risk Mitigation: Identified changing supplier patterns enabling proactive strategy adjustments
 
-    5) Competitive Intelligence: Mapped supplier behavior patterns for market advantage<br>
+    Competitive Intelligence: Mapped supplier behavior patterns for market advantage
 
 <h4>⚠️ Disclaimer</h4>
 
