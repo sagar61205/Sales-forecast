@@ -81,7 +81,7 @@ The client faced significant challenges in pharmaceutical supply chain managemen
 <ul><li>Data Processing & Analysis: Python, Pandas, NumPy, Scikit-learn, Statsmodels</li><br>
 <li>Time Series Forecasting: ARIMA and SARIMAX</li><br>
 <li>Data Visualization: Matplotlib, Seaborn, Plotly</li><br>
-<li>Deployment: Streamlit, Docker</li><br>
+<li>Deployment: Flask, Docker, Cloud-AWS</li><br>
 <li>Tools: Git, Jupyter Notebook, VS Code</li><br>
 </ul>
 
