@@ -91,9 +91,6 @@ The client faced significant challenges in pharmaceutical supply chain managemen
 <li>RMSE (Root Mean Square Error): Optimized for business requirements</li><br>
 <li>Error Reduction: From 10-15% down to 4-6% (60%+ improvement)</li><br></ul>
 
-<h4>🔍 Interactive Forecast Visualizations:</h4>
-
-
 <h4>💡 Business Value Delivered: </h4>
 
 <ul><li>Inventory Optimization: Reduced stockouts and overstock situations through accurate forecasting</li><br>
