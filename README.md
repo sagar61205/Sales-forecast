@@ -27,17 +27,17 @@ The client faced significant challenges in pharmaceutical supply chain managemen
 
 <h4>Business Impact:</h4>
 <ul>
-<li>D+5.3% Sales Increase through optimized inventory management</li><br>
+<li>+5.3% Sales Increase through optimized inventory management</li><br>
 
-<li>DActionable Supplier Insights: Identified top-performing suppliers and trends for better procurement negotiations</li><br>
+<li>Actionable Supplier Insights: Identified top-performing suppliers and trends for better procurement negotiations</li><br>
 
-<li>DOperational Efficiency: Automated previously manual forecasting processes</li><br>
+<li>Operational Efficiency: Automated previously manual forecasting processes</li><br>
 
-<li>DStrategic Decision Making: Enabled data-driven inventory planning and competitive intelligence</li><br>
+<li>Strategic Decision Making: Enabled data-driven inventory planning and competitive intelligence</li><br>
 </ul>
 
 <h4>🏗️ Technical Architecture:</h4>
-<img width="1024" height="720" alt="Image" src="https://github.com/user-attachments/assets/58a377f5-e036-464a-bed0-e2936d018eae" />
+<img width="600" height="900" alt="Image" src="https://github.com/user-attachments/assets/9349c243-f85c-49fc-80b3-cfc36da6caae" />
 
 <h4>📈 Key Insights Delivered:</h4>
                            
