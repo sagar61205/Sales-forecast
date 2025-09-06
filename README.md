@@ -102,4 +102,4 @@ The client faced significant challenges in pharmaceutical supply chain managemen
 
 <h4>⚠️Disclaimer</h4>
 
-This project serves as a Proof of Concept (POC). The data used comes with no guarantee from the organization and should not be used for actual forecasting decisions. This project demonstrates how machine learning time-series forecasting can be applied in practice and the potential impact it can generate.
+This project serves as a Proof of Concept (POC). This project demonstrates how machine learning time-series forecasting is applied in practice and the potential impact it can generate.
