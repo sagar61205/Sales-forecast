@@ -37,7 +37,7 @@ The client faced significant challenges in pharmaceutical supply chain managemen
 </ul>
 
 <h4>🏗️ Technical Architecture:</h4>
-<img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/bcb828cc-44f3-4fa2-89f8-de2640037dc8" />
+<img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/f050fe56-744e-440a-92a5-08a72d65eedd" />
 
 <h4>📈 Key Insights Delivered:</h4>
                            
