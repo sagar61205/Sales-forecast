@@ -43,31 +43,37 @@ The client faced significant challenges in pharmaceutical supply chain managemen
                            
 <h5>Overall Supplier Trends:</h5>
 <ul>
+<img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/bba73476-695c-4385-a6a2-b7250977e8c9" />
 <li>Detected clear seasonality patterns across all suppliers</li><br>
 <li>Established stable sales-margin percentages over time</li><br>
-<li>Identified cyclical patterns for inventory planning</li><br>
+<li>Identified cyclical patterns for inventory planning</li>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00">Click here for Interactive Analysis</a></h6>
 
 <h5>Top Supplier Analysis:</h5>
 
-<h5>Supplier #1:</h5>
-<img width="720" height="320" alt="Image" src="https://github.com/user-attachments/assets/dd0ab997-6861-4f5a-accf-9e175b97c3d8" />
+<h5>Supplier 1:</h5>
+<img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/dd0ab997-6861-4f5a-accf-9e175b97c3d8" />
 
 <li>Clear seasonality patterns present. A srong dip in years 2020-2021 due to Covid</li><br>
 <li>Stable sales-margin percentage with varying long-term trends</li><br>
-<li>Consistent monthly performance without long-term decline except for 2020-2021 Covid period</li><br>
-<h6 align ="left"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00">Interactive Analysis</a></h6>
+<li>Consistent monthly performance without long-term decline except for 2020-2021</li>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8">Click here for Interactive Analysis</a></h6>
 
-<h5>Supplier #2:</h5>
+<h5>Supplier 2:</h5>
+<img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/8491c867-a981-4df0-be10-3c80de0efb01" />
 
 <li>Strong seasonal patterns detected</li><br>
 <li>Moderate decline in sales-margin over time, showing recent recovery signs</li><br>
-<li>Increased variability requiring careful inventory management</li><br>
+<li>Increased variability requiring careful inventory management</li>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d"> Click here for Interactive Analysis</a></h6>
 
-<h5>Supplier #3:</h5>
+<h5>Supplier 3:</h5>
+<img width="620" height="320" alt="Image" src="https://github.com/user-attachments/assets/cb81b72e-ef51-48ed-9f97-0903b3480c25" />
 
 <li>Pronounced seasonality with increasing monthly variability</li><br>
 <li>Significant changes in sales-margin patterns over recent years</li><br>
-<li>Requires dynamic inventory adjustment strategies</li><br>
+<li>Requires dynamic inventory adjustment strategies</li>
+<h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff">Click here for Interactive Analysis</a></h6>
 </ul>
 
 <h4>🛠️ Technical Stack:</h4>
@@ -87,17 +93,6 @@ The client faced significant challenges in pharmaceutical supply chain managemen
 
 <h4>🔍 Interactive Forecast Visualizations:</h4>
 
-<h5>Supplier	Forecast Visualization - Interactive Analysis</h5>
-<ul>
-<li><h6 align ="left"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00">Overall Model</a></h6>
-</li>
-<li><h6 align ="left"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/1a4481f4-9c66-46b9-a11f-67fdad064bd8">Top Supplier 1</a></h6>
-</li>
-<li><h6 align ="left"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d"> Top Supplier 2</a></h6>
-</li>
-<li><h6 align ="left"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/aa6339a8-20b4-4f69-8741-e5de399fbaff">Top Supplier 3 </a></h6>
-</li>        
-</ul>
 
 <h4>💡 Business Value Delivered: </h4>
 
