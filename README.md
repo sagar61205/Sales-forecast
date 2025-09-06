@@ -50,7 +50,7 @@ The client faced significant challenges in pharmaceutical supply chain managemen
 <h5>Top Supplier Analysis:</h5>
 
 <h5>Supplier #1:</h5>
-<img width="1266" height="720" alt="Image" src="https://github.com/user-attachments/assets/dd0ab997-6861-4f5a-accf-9e175b97c3d8" />
+<img width="720" height="1280" alt="Image" src="https://github.com/user-attachments/assets/dd0ab997-6861-4f5a-accf-9e175b97c3d8" />
 
 <li>Clear seasonality patterns present</li><br>
 <li>Stable sales-margin percentage with varying long-term trends</li><br>
