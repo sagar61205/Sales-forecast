@@ -50,11 +50,12 @@ The client faced significant challenges in pharmaceutical supply chain managemen
 <h5>Top Supplier Analysis:</h5>
 
 <h5>Supplier #1:</h5>
-<img width="420" height="120" alt="Image" src="https://github.com/user-attachments/assets/dd0ab997-6861-4f5a-accf-9e175b97c3d8" />
-<h6 align ="left"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00">Interactive Analysis</a></h6>
-<li>Clear seasonality patterns present</li><br>
+<img width="720" height="320" alt="Image" src="https://github.com/user-attachments/assets/dd0ab997-6861-4f5a-accf-9e175b97c3d8" />
+
+<li>Clear seasonality patterns present. A srong dip in years 2020-2021 due to Covid</li><br>
 <li>Stable sales-margin percentage with varying long-term trends</li><br>
-<li>Consistent monthly performance without long-term decline</li><br>
+<li>Consistent monthly performance without long-term decline except for 2020-2021 Covid period</li><br>
+<h6 align ="left"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/f1ff8ef7-3f5c-4f87-b732-02a2b19f8b00">Interactive Analysis</a></h6>
 
 <h5>Supplier #2:</h5>
 
