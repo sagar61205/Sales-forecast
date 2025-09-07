@@ -78,7 +78,7 @@ As the Data Scientist, I was tasked with building a automated, data-driven forec
 <h6 align ="center"><a href = "https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d"> Click here for larger view</a></h6>
 
 <h5>Supplier 3:</h5>
-<img width="620" height="320" alt="Image" src="https://github.com/user-attachments/assets/cb81b72e-ef51-48ed-9f97-0903b3480c25" />
+<img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/cb81b72e-ef51-48ed-9f97-0903b3480c25" />
 
 <li>Pronounced seasonality with increasing monthly variability</li><br>
 <li>Significant changes in sales-margin patterns over recent years</li><br>
