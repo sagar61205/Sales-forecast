@@ -15,12 +15,15 @@ The client faced significant challenges in pharmaceutical supply chain managemen
 As the Data Scientist, I was tasked with building a automated, data-driven forecasting system. I designed and deployed an end-to-end machine learning pipeline that predicted future sales with high accuracy, enabling the team to make smarter, proactive inventory decisions.
 <br>
 
+<h5>Key Objectives:</h5>
 <ul><li>Trends analysis: Identify trends and seasonality in sales data over a 10 year period.</li><br>
 
 <li>Accurate Forecasting: Build a robust forecasting model for the next year.</li><br>
 
 <li>Supplier Behavior: Provide actionable insights on supplier performance to optimize inventory management and competitive intelligence.</li><br>
 </ul>
+
+
 
 <h4>Business Impact:</h4>
 <ul>
