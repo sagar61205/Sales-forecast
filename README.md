@@ -1,6 +1,6 @@
 <h1 align = "center"> AI-Powered Sales Forecasting Engine</h1>
 
-<h3 align="center">Boosted sales by 5.3% by deploying a predictive forecasting model that optimized inventory and identified high-margin opportunities</h3><p align="center"> <a href="https://sagar61205.github.io/Sales-forecast/">View the Interactive App</a> • <a href="https://github.com/sagar61205/Sales-forecast">View the Code</a> </p>
+<h3 align="center">Boosted sales by 5.3% by deploying a predictive forecasting model that optimized inventory and identified high-margin opportunities</h3><p align="center"> <a href="https://sagar61205.github.io/Sales-forecast/">View the Case study</a> • <a href="https://github.com/sagar61205/Sales-forecast">View the Code</a> </p>
 
 <h4>📊 Business Problem Statement:</h4>
 
@@ -20,8 +20,21 @@ As the Data Scientist, I was tasked with building a automated, data-driven forec
 <li>Supplier Behavior: Provide actionable insights on supplier performance to optimize inventory management and competitive intelligence.</li><br>
 </ul>
 
-<h4>🎯 Solution & Impact:</h4>
-<h5>Technical Implementation</h5>
+<h4>Business Impact:</h4>
+<ul>
+<li>+5.3% Sales Increase through optimized inventory management</li><br>
+<li>Actionable Supplier Insights: Enabled strategic negotiations with top-performing suppliers</li><br>
+<li>Operational Efficiency: Automated previously manual forecasting processes</li><br>
+<li>Inventory Optimization: Reduced stockouts and overstock situations through accurate forecasting</li><br>
+<li>Compeitive Intelligence: Enabled data-driven inventory planning and competitive intelligence</li><br>
+</ul>
+
+
+<h4>🏗️ Technical Architecture:</h4>
+<img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/6d9a87d4-74ca-4844-8ffb-0afd45eaa02e" />
+
+
+<h4>Technical Implementation</h4>
 <ul>
 <li>Data Architecture: Processed millions of records to classify, restructure, and prepare time-series data</li><br>
 
@@ -32,19 +45,7 @@ As the Data Scientist, I was tasked with building a automated, data-driven forec
 <li>Error Reduction: Minimized forecast error from 10-15% range to 4-6% meeting business requirements</li><br>
 </ul>
 
-<h4>Business Impact:</h4>
-<ul>
-<li>+5.3% Sales Increase through optimized inventory management</li><br>
 
-<li>Actionable Supplier Insights: Identified top-performing suppliers and trends for better procurement negotiations</li><br>
-
-<li>Operational Efficiency: Automated previously manual forecasting processes</li><br>
-
-<li>Strategic Decision Making: Enabled data-driven inventory planning and competitive intelligence</li><br>
-</ul>
-
-<h4>🏗️ Technical Architecture:</h4>
-<img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/f050fe56-744e-440a-92a5-08a72d65eedd" />
 
 <h4>📈 Key Insights Delivered:</h4>
                            
