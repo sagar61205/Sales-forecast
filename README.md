@@ -5,18 +5,19 @@
 <h4>📊 Business Problem Statement:</h4>
 
 The client faced significant challenges in pharmaceutical supply chain management:
-<ul><li></li>Lack of visibility into future demand made it impossible to optimize procurement from suppliers</li><br>
-<li>Missed revenue opportunities due to the inability to identify and capitalize on sales trends</li><br>
+<ul><li>Lack of visibility into future demand made it impossible to optimize procurement from suppliers.</li><br>
+<li>Missed revenue opportunities due to the inability to identify and capitalize on sales trends.</li><br>
 </ul>
 
-<h4>📊 My Role & The Solution:</h4>
+<h4>📊 My role and the solution:</h4>
 As the Data Scientist, I was tasked with building a automated, data-driven forecasting system. I designed and deployed an end-to-end machine learning pipeline that predicted future sales with high accuracy, enabling the team to make smarter, proactive inventory decisions.
+<br>
 
 <ul><li>Trends analysis: Identify trends and seasonality in sales data over a 10 year period.</li><br>
 
 <li>Accurate Forecasting: Build a robust forecasting model for the next year.</li><br>
 
-<li>Supplier Behavior: Provide actionable insights on supplier performance to optimize inventory management and competitive intelligence</li><br>
+<li>Supplier Behavior: Provide actionable insights on supplier performance to optimize inventory management and competitive intelligence.</li><br>
 </ul>
 
 <h4>🎯 Solution & Impact:</h4>
