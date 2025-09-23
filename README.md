@@ -1,6 +1,6 @@
 <h1 align = "center"> AI-Powered Sales Forecasting Engine</h1>
 
-<h3 align="center">Boosted sales by 5.3% by deploying a predictive forecasting model that optimized inventory and identified high-margin opportunities</h3><p align="center"> <a href="https://sagar61205.github.io/Sales-forecast/">View the Case study</a> • <a href="https://github.com/sagar61205/Sales-forecast">View the Code</a> </p>
+<h3 align="center">Boosted sales by 5.3% by deploying a predictive forecasting model that optimized inventory and identified high-margin opportunities</h3><p align="center"> <a href="https://sagar61205.github.io/Sales-forecast/">View the Case study</a> • <a href="https://github.com/sagar61205/Sales-forecast">View GitHub</a> </p>
 
 <img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/bba73476-695c-4385-a6a2-b7250977e8c9" />
 
