@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI-Powered Sales Forecasting Engine – Sagar Virmani</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background-attachment: fixed;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      max-width: 1000px;
+    }
+
+    /* ── NAV ── */
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 32px;
+    }
+    .nav .logo {
+      font-weight: 700;
+      font-size: 1.1rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    .nav .back {
+      color: #667eea;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .nav .back:hover { text-decoration: underline; }
+
+    /* ── HERO ── */
+    .hero {
+      text-align: center;
+      padding: 32px 10px 40px;
+    }
+    .hero .badge {
+      display: inline-block;
+      background: #e3f2fd;
+      color: #1976d2;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+    }
+    .hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 14px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero .subtitle {
+      color: #666;
+      font-size: 1.05rem;
+      max-width: 680px;
+      margin: 0 auto 24px;
+    }
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .tech-tag {
+      background: #e3f2fd;
+      color: #1976d2;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    /* ── SECTION HEADINGS ── */
+    .section { margin: 40px 0; }
+    .section h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+      border-left: 5px solid #667eea;
+      padding-left: 15px;
+      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    }
+
+    /* ── STATUS BAR ── */
+    .status-bar {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-left: 4px solid #16a34a;
+      border-radius: 8px;
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .status-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      background: #16a34a;
+      box-shadow: 0 0 6px rgba(22,163,74,0.5);
+      animation: pulse 2s infinite;
+      flex-shrink: 0;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .status-text { font-size: 0.88rem; color: #15803d; font-weight: 600; }
+    .status-sub  { font-size: 0.8rem; color: #666; margin-top: 2px; }
+
+    /* ── METRICS STRIP ── */
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .metric-card {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      border-left: 4px solid #667eea;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .metric-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(102,126,234,0.15); }
+    .metric-card .val {
+      font-size: 1.9rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .metric-card .label { font-size: 0.8rem; color: #666; font-weight: 500; }
+
+    /* ── PROSE BLOCKS ── */
+    .prose { color: #555; margin-bottom: 14px; }
+
+    /* bullet lists inside cards */
+    .bullet-list {
+      list-style: none;
+      padding: 0;
+      margin: 8px 0 0;
+    }
+    .bullet-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      font-size: 0.85rem;
+      color: #555;
+      line-height: 1.6;
+      padding: 5px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .bullet-list li:last-child { border-bottom: none; }
+    .bullet-list li::before {
+      content: "\2192";
+      color: #667eea;
+      font-weight: 700;
+      flex-shrink: 0;
+      font-size: 0.82rem;
+      margin-top: 2px;
+    }
+
+    /* ── ARCHITECTURE ── */
+    .arch-box {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 28px 20px;
+      overflow-x: auto;
+      border-left: 4px solid #667eea;
+    }
+    .arch-flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      min-width: 680px;
+    }
+    .arch-node {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 12px 14px;
+      text-align: center;
+      min-width: 105px;
+      flex-shrink: 0;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .arch-node:hover { border-color: #667eea; box-shadow: 0 2px 8px rgba(102,126,234,0.15); }
+    .arch-node .icon { font-size: 1.4rem; margin-bottom: 5px; }
+    .arch-node .node-title { font-size: 0.75rem; font-weight: 600; color: #2c3e50; }
+    .arch-node .node-sub   { font-size: 0.65rem; color: #888; margin-top: 3px; }
+    .arch-node.accent { border-color: #667eea; background: #f5f3ff; }
+    .arch-arrow { color: #aaa; font-size: 1.2rem; padding: 0 4px; flex-shrink: 0; }
+    .arch-chip {
+      display: block;
+      background: #fff3e0;
+      border: 1px solid #fed7aa;
+      border-radius: 5px;
+      padding: 2px 7px;
+      font-size: 0.63rem;
+      color: #c2410c;
+      white-space: nowrap;
+      margin-bottom: 3px;
+    }
+    .arch-note {
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid #e5e7eb;
+      font-size: 0.82rem;
+      color: #888;
+      text-align: center;
+    }
+    .arch-note strong { color: #2c3e50; }
+
+    /* ── CHALLENGE / SOLUTION TABLE ── */
+    .table-container { overflow-x: auto; margin: 4px 0; }
+    table { width: 100%; border-collapse: collapse; min-width: 560px; }
+    th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #ddd; }
+    th { background: #f8f9fa; font-weight: 600; color: #2c3e50; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafafa; }
+
+    /* ── CHALLENGE → SOLUTION CARDS ── */
+    .cs-list { display: flex; flex-direction: column; gap: 16px; }
+    .cs-item {
+      background: #f8f9fa;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #eee;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .cs-item:hover { box-shadow: 0 4px 12px rgba(102,126,234,0.12); transform: translateY(-1px); }
+    .cs-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+    .cs-challenge {
+      padding: 18px 20px;
+      border-right: 1px solid #e5e7eb;
+    }
+    .cs-solution {
+      padding: 18px 20px;
+      background: white;
+    }
+    .cs-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .cs-label.challenge-label { color: #9333ea; }
+    .cs-label.solution-label  { color: #667eea; }
+    .cs-text { font-size: 0.87rem; color: #444; line-height: 1.6; }
+    @media (max-width: 640px) {
+      .cs-row { grid-template-columns: 1fr; }
+      .cs-challenge { border-right: none; border-bottom: 1px solid #e5e7eb; }
+    }
+
+    /* ── INNOVATION / IMPACT CARDS ── */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      border-left: 4px solid #667eea;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(102,126,234,0.12); }
+    .card.v2 { border-left-color: #764ba2; }
+    .card h4 { font-size: 0.92rem; font-weight: 700; color: #2c3e50; margin-bottom: 8px; }
+    .card p  { font-size: 0.85rem; color: #555; line-height: 1.6; }
+
+    /* ── STACK GRID ── */
+    .stack-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap: 12px;
+    }
+    .stack-item {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-left: 3px solid #667eea;
+      transition: transform 0.2s;
+    }
+    .stack-item:hover { transform: translateY(-1px); }
+    .stack-item .s-icon { font-size: 1.2rem; }
+    .stack-item .s-name { font-size: 0.85rem; font-weight: 600; color: #2c3e50; }
+    .stack-item .s-role { font-size: 0.72rem; color: #888; }
+
+    /* ── EVAL CARDS ── */
+    .eval-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+    }
+    .eval-card {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 14px;
+      border-top: 3px solid #667eea;
+    }
+    .eval-card.v2 { border-top-color: #764ba2; }
+    .eval-card .e-title { font-size: 0.82rem; font-weight: 700; color: #2c3e50; margin-bottom: 6px; }
+    .eval-card .e-desc  { font-size: 0.8rem; color: #666; }
+
+    /* ── DISCLAIMER ── */
+    .disclaimer {
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 0.82rem;
+      color: #666;
+      margin-top: 40px;
+    }
+
+    /* ── BUTTON ── */
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin-top: 8px;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(102,126,234,0.35); }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 28px 15px 10px;
+      color: #666;
+      border-top: 1px solid #eee;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .container { padding: 24px; }
+      .hero { padding: 20px 0 30px; }
+    }
+    @media (max-width: 480px) {
+      .container { padding: 16px; }
+      .btn { width: 100%; text-align: center; }
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+  <div class="nav">
+    <a href="https://sagar61205.github.io/portfolio_2/" class="logo">Sagar Virmani</a>
+    <a href="https://sagar61205.github.io/portfolio_2/" class="back">← Back to Portfolio</a>
+  </div>
+
+  <div class="hero">
+    <div class="badge">📈 Time-Series Forecasting · Production ML · AWS</div>
+    <h1>AI-Powered Sales<br/>Forecasting Engine</h1>
+    <p class="subtitle">Deployed a predictive ARIMA/SARIMAX forecasting model across 10 years of pharmaceutical sales data, driving a 5.3% sales increase through optimised inventory management and supplier-level intelligence.</p>
+    <div class="tech-tags">
+      <span class="tech-tag">ARIMA & SARIMAX</span>
+      <span class="tech-tag">Time-Series</span>
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">PyCaret</span>
+      <span class="tech-tag">Flask</span>
+      <span class="tech-tag">Docker</span>
+      <span class="tech-tag">AWS EC2</span>
+      <span class="tech-tag">Pandas · NumPy</span>
+    </div>
+  </div>
+
+  <div class="status-bar">
+    <div class="status-dot"></div>
+    <div>
+      <div class="status-text">Production Deployed · Live on AWS EC2</div>
+      <div class="status-sub">End-to-end forecasting pipeline operational · Serving 12-month forward projections · Integrated with inventory planning workflow</div>
+    </div>
+  </div>
+
+  <div class="metrics">
+    <div class="metric-card"><div class="val">+5.3%</div><div class="label">Sales Increase</div></div>
+    <div class="metric-card"><div class="val">60%</div><div class="label">Forecast Error Reduction</div></div>
+    <div class="metric-card"><div class="val">10yrs</div><div class="label">Historical Data Processed</div></div>
+    <div class="metric-card"><div class="val">12mo</div><div class="label">Forward Forecast Horizon</div></div>
+    <div class="metric-card"><div class="val">4–6%</div><div class="label">Final MAE Range</div></div>
+  </div>
+
+  <div class="section">
+    <h2>🎯 Business Problem</h2>
+    <p class="prose">The client operated in pharmaceutical supply chain management where procurement decisions required reliable forward visibility into demand. Without it, the team regularly faced two failure modes: stockouts on high-margin products and overstock on slow-moving lines, both directly eroding profitability.</p>
+    <p class="prose">Manual forecasting was inconsistent, took significant analyst time, and failed to account for clear seasonality patterns already present in the data. The goal was to build an automated system that gave the procurement team reliable 12-month projections per supplier, along with actionable intelligence on margin trends and seasonal behaviour.</p>
+  </div>
+
+  <div class="section">
+    <h2>🏗️ System Architecture</h2>
+    <div class="arch-box">
+      <div class="arch-flow">
+        <div class="arch-node accent"><div class="icon">📊</div><div class="node-title">Sales Data</div><div class="node-sub">10 Years Historical<br/>Multi-Supplier</div></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node"><div class="icon">🐍</div><div class="node-title">Data Pipeline</div><div class="node-sub">Python · Pandas<br/>Classify & Prep</div></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node accent"><div class="icon">📈</div><div class="node-title">ARIMA Model</div><div class="node-sub">ARIMA · SARIMAX<br/>PyCaret Tuning</div></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node"><div class="icon">🔍</div><div class="node-title">Supplier Analysis</div><div class="node-sub">Seasonality<br/>Trend Detection</div></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node"><div class="icon">🌐</div><div class="node-title">Flask API</div><div class="node-sub">REST Endpoint<br/>Docker Container</div></div>
+        <div class="arch-arrow">→</div>
+        <div class="arch-node accent"><div class="icon">☁️</div><div class="node-title">AWS EC2</div><div class="node-sub">Production<br/>Deployment</div></div>
+      </div>
+      <div class="arch-note"><strong>Output Layer:</strong> 12-month sales forecasts · Supplier seasonality profiles · Inventory planning recommendations</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>⚙️ Key Technical Challenges & Solutions</h2>
+    <div class="cs-list">
+
+      <div class="cs-item"><div class="cs-row">
+        <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
+          <div class="cs-text"><strong>Complex multi-supplier data:</strong> millions of records across suppliers with inconsistent formats, missing periods, and different seasonal profiles that needed standardising before modelling.</div></div>
+        <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
+          <div class="cs-text"><strong>Structured data pipeline</strong> to classify, restructure, and prepare time-series data per supplier, ensuring clean, consistent input to the forecasting models.</div></div>
+      </div></div>
+
+      <div class="cs-item"><div class="cs-row">
+        <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
+          <div class="cs-text"><strong>Model selection across suppliers:</strong> ARIMA vs. SARIMAX performance varied significantly depending on each supplier's seasonality pattern and data volume.</div></div>
+        <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
+          <div class="cs-text"><strong>PyCaret-driven model experimentation</strong> comparing both approaches per supplier, ARIMA selected as optimal after parameter tuning, reducing MAE to 4–6%.</div></div>
+      </div></div>
+
+      <div class="cs-item"><div class="cs-row">
+        <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
+          <div class="cs-text"><strong>COVID-19 data distortion:</strong> the 2020–2021 period introduced anomalous dips that would skew long-term trend and seasonality modelling if left untreated.</div></div>
+        <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
+          <div class="cs-text"><strong>Outlier isolation and period treatment</strong>, COVID years handled separately to preserve the underlying trend and seasonality signals across the 10-year dataset.</div></div>
+      </div></div>
+
+      <div class="cs-item"><div class="cs-row">
+        <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
+          <div class="cs-text"><strong>Production accessibility:</strong> moving from a research notebook to a stable system that the procurement team could use without data science involvement.</div></div>
+        <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
+          <div class="cs-text"><strong>Flask REST API</strong> containerised in Docker and deployed to AWS EC2, giving the business a stable endpoint for generating on-demand forecasts independently.</div></div>
+      </div></div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💡 What Makes This Different</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h4>10-Year Data Foundation</h4>
+        <ul class="bullet-list">
+          <li>Trained on a full decade of sales history per supplier</li>
+          <li>Long-term seasonality and cyclical patterns captured accurately</li>
+          <li>COVID anomaly period isolated to prevent long-term distortion</li>
+        </ul>
+      </div>
+      <div class="card v2">
+        <h4>Supplier-Level Intelligence</h4>
+        <ul class="bullet-list">
+          <li>Separate seasonality and margin trend profiles built per supplier</li>
+          <li>Identified suppliers with declining margins and recovery signals</li>
+          <li>Gave procurement a data-backed basis for supplier negotiations</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Rigorous Model Selection</h4>
+        <ul class="bullet-list">
+          <li>ARIMA and SARIMAX both evaluated using PyCaret per supplier</li>
+          <li>Forecast error reduced from 10–15% down to 4–6% MAE</li>
+          <li>Parameters tuned per supplier, not a one-size-fits-all model</li>
+        </ul>
+      </div>
+      <div class="card v2">
+        <h4>Production-Ready Deployment</h4>
+        <ul class="bullet-list">
+          <li>Flask API containerised in Docker, deployed to AWS EC2</li>
+          <li>Procurement team generates forecasts independently via REST endpoint</li>
+          <li>Replaced inconsistent manual forecasting with automated projections</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🔍 Key Supplier Insights Delivered</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h4>Supplier 1, Stable Performer</h4>
+        <ul class="bullet-list">
+          <li>Clear seasonality with consistent monthly performance pattern</li>
+          <li>Stable sales-margin ratio maintained over the long term</li>
+          <li>COVID dip in 2020–2021, recovered cleanly to historical baseline</li>
+        </ul>
+      </div>
+      <div class="card v2">
+        <h4>Supplier 2, Margin Decline</h4>
+        <ul class="bullet-list">
+          <li>Strong seasonal patterns with moderate long-term margin decline</li>
+          <li>Recent recovery signals identified in the latest data period</li>
+          <li>Flagged for strategic renegotiation with the procurement team</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Supplier 3, High Variability</h4>
+        <ul class="bullet-list">
+          <li>Pronounced seasonality with increasing monthly variability</li>
+          <li>Significant margin pattern changes observed in recent years</li>
+          <li>Recommended for a dynamic inventory adjustment strategy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Technical Stack</h2>
+    <div class="stack-grid">
+      <div class="stack-item"><span class="s-icon">📈</span><div><div class="s-name">ARIMA & SARIMAX</div><div class="s-role">Time-Series Forecasting · Statsmodels</div></div></div>
+      <div class="stack-item"><span class="s-icon">🧪</span><div><div class="s-name">PyCaret</div><div class="s-role">Model Experimentation · Tuning</div></div></div>
+      <div class="stack-item"><span class="s-icon">🐍</span><div><div class="s-name">Python · Pandas · NumPy</div><div class="s-role">Data Processing · Feature Engineering</div></div></div>
+      <div class="stack-item"><span class="s-icon">🌐</span><div><div class="s-name">Flask</div><div class="s-role">REST API · Model Serving</div></div></div>
+      <div class="stack-item"><span class="s-icon">🐳</span><div><div class="s-name">Docker</div><div class="s-role">Containerisation · Deployment</div></div></div>
+      <div class="stack-item"><span class="s-icon">☁️</span><div><div class="s-name">AWS EC2</div><div class="s-role">Production Hosting</div></div></div>
+      <div class="stack-item"><span class="s-icon">📊</span><div><div class="s-name">Matplotlib · Seaborn · Plotly</div><div class="s-role">Visualisation · Insight Reporting</div></div></div>
+      <div class="stack-item"><span class="s-icon">📓</span><div><div class="s-name">Jupyter Notebook · VS Code</div><div class="s-role">Development · Experimentation</div></div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📈 Business Impact</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h4>💰 +5.3% Sales Increase</h4>
+        <ul class="bullet-list">
+          <li>Directly attributed to better inventory alignment with demand signals</li>
+          <li>Reduced stockouts on high-margin product lines</li>
+          <li>Procurement decisions made weeks earlier with data-backed confidence</li>
+        </ul>
+      </div>
+      <div class="card v2">
+        <h4>⚡ 60% Forecast Error Reduction</h4>
+        <ul class="bullet-list">
+          <li>MAE reduced from 10–15% range down to 4–6% across all suppliers</li>
+          <li>Replaced inconsistent manual estimates with repeatable model projections</li>
+          <li>Consistent accuracy maintained across all three supplier profiles</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>📊 Supplier & Competitive Intelligence</h4>
+        <ul class="bullet-list">
+          <li>Per-supplier seasonality profiles surfaced for the first time</li>
+          <li>Declining margin patterns identified and flagged proactively</li>
+          <li>Data-backed basis for supplier negotiations and contract reviews</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="disclaimer">
+    ⚠️ <strong>Disclaimer:</strong> This project serves as a Proof of Concept demonstrating how machine learning is applied in practice. No proprietary client data is disclosed.
+  </div>
+
+  <footer>
+    <a href="https://sagar61205.github.io/portfolio_2/" class="btn">← Back to Portfolio</a>
+  </footer>
+</div>
+</body>
+</html>
