@@ -404,7 +404,7 @@
   </div>
 
   <div class="hero">
-    <div class="badge">📈 Time-Series Forecasting · Production ML · AWS</div>
+    <div class="badge">📈 Time-Series Forecasting · Production ML · GCP</div>
     <h1>AI-Powered Sales<br/>Forecasting Engine</h1>
     <p class="subtitle">Deployed a predictive ARIMA/SARIMAX forecasting model across 10 years of pharmaceutical sales data, driving a 5.3% sales increase through optimised inventory management and supplier-level intelligence.</p>
     <div class="tech-tags">
@@ -412,9 +412,7 @@
       <span class="tech-tag">Time-Series</span>
       <span class="tech-tag">Python</span>
       <span class="tech-tag">PyCaret</span>
-      <span class="tech-tag">Flask</span>
-      <span class="tech-tag">Docker</span>
-      <span class="tech-tag">AWS EC2</span>
+      <span class="tech-tag">GCP</span>
       <span class="tech-tag">Pandas · NumPy</span>
     </div>
   </div>
@@ -422,7 +420,7 @@
   <div class="status-bar">
     <div class="status-dot"></div>
     <div>
-      <div class="status-text">Production Deployed · Live on AWS EC2</div>
+      <div class="status-text">Production Deployed · SLA-Based Quarterly Delivery on GCP</div>
       <div class="status-sub">End-to-end forecasting pipeline operational · Serving 12-month forward projections · Integrated with inventory planning workflow</div>
     </div>
   </div>
@@ -453,9 +451,7 @@
         <div class="arch-arrow">→</div>
         <div class="arch-node"><div class="icon">🔍</div><div class="node-title">Supplier Analysis</div><div class="node-sub">Seasonality<br/>Trend Detection</div></div>
         <div class="arch-arrow">→</div>
-        <div class="arch-node"><div class="icon">🌐</div><div class="node-title">Flask API</div><div class="node-sub">REST Endpoint<br/>Docker Container</div></div>
-        <div class="arch-arrow">→</div>
-        <div class="arch-node accent"><div class="icon">☁️</div><div class="node-title">AWS EC2</div><div class="node-sub">Production<br/>Deployment</div></div>
+        <div class="arch-node accent"><div class="icon">☁️</div><div class="node-title">GCP</div><div class="node-sub">Production<br/>Quarterly SLA</div></div>
       </div>
       <div class="arch-note"><strong>Output Layer:</strong> 12-month sales forecasts · Supplier seasonality profiles · Inventory planning recommendations</div>
     </div>
@@ -481,16 +477,16 @@
 
       <div class="cs-item"><div class="cs-row">
         <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
-          <div class="cs-text"><strong>COVID-19 data distortion:</strong> the 2020–2021 period introduced anomalous dips that would skew long-term trend and seasonality modelling if left untreated.</div></div>
+          <div class="cs-text"><strong>Historical anomaly distorting forecasts:</strong> one supplier showed an extreme dip in historical sales values that was skewing model parameters and degrading forecast accuracy.</div></div>
         <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
-          <div class="cs-text"><strong>Outlier isolation and period treatment</strong>, COVID years handled separately to preserve the underlying trend and seasonality signals across the 10-year dataset.</div></div>
+          <div class="cs-text"><strong>ARIMA order parameter tuning</strong> (p and q values) corrected for the anomaly, achieving significant improvement in both test set accuracy and the actual 12-month forward forecast for that supplier.</div></div>
       </div></div>
 
       <div class="cs-item"><div class="cs-row">
         <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
           <div class="cs-text"><strong>Production accessibility:</strong> moving from a research notebook to a stable system that the procurement team could use without data science involvement.</div></div>
         <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
-          <div class="cs-text"><strong>Flask REST API</strong> containerised in Docker and deployed to AWS EC2, giving the business a stable endpoint for generating on-demand forecasts independently.</div></div>
+          <div class="cs-text"><strong>Structured quarterly delivery pipeline</strong> on GCP, giving the procurement team reliable 12-month projections per supplier on a scheduled SLA basis.</div></div>
       </div></div>
 
     </div>
@@ -504,7 +500,7 @@
         <ul class="bullet-list">
           <li>Trained on a full decade of sales history per supplier</li>
           <li>Long-term seasonality and cyclical patterns captured accurately</li>
-          <li>COVID anomaly period isolated to prevent long-term distortion</li>
+          <li>Historical anomaly corrected through ARIMA parameter tuning per supplier</li>
         </ul>
       </div>
       <div class="card v2">
@@ -524,11 +520,11 @@
         </ul>
       </div>
       <div class="card v2">
-        <h4>Production-Ready Deployment</h4>
+        <h4>Production-Ready Delivery</h4>
         <ul class="bullet-list">
-          <li>Flask API containerised in Docker, deployed to AWS EC2</li>
-          <li>Procurement team generates forecasts independently via REST endpoint</li>
-          <li>Replaced inconsistent manual forecasting with automated projections</li>
+          <li>Forecasts delivered under quarterly SLA on GCP</li>
+          <li>Replaced inconsistent manual forecasting with repeatable model projections</li>
+          <li>Outputs handed directly to procurement with actionable supplier intelligence</li>
         </ul>
       </div>
     </div>
@@ -542,7 +538,7 @@
         <ul class="bullet-list">
           <li>Clear seasonality with consistent monthly performance pattern</li>
           <li>Stable sales-margin ratio maintained over the long term</li>
-          <li>COVID dip in 2020–2021, recovered cleanly to historical baseline</li>
+          <li>Historical anomaly identified and corrected through model parameter tuning</li>
         </ul>
       </div>
       <div class="card v2">
@@ -570,9 +566,7 @@
       <div class="stack-item"><span class="s-icon">📈</span><div><div class="s-name">ARIMA & SARIMAX</div><div class="s-role">Time-Series Forecasting · Statsmodels</div></div></div>
       <div class="stack-item"><span class="s-icon">🧪</span><div><div class="s-name">PyCaret</div><div class="s-role">Model Experimentation · Tuning</div></div></div>
       <div class="stack-item"><span class="s-icon">🐍</span><div><div class="s-name">Python · Pandas · NumPy</div><div class="s-role">Data Processing · Feature Engineering</div></div></div>
-      <div class="stack-item"><span class="s-icon">🌐</span><div><div class="s-name">Flask</div><div class="s-role">REST API · Model Serving</div></div></div>
-      <div class="stack-item"><span class="s-icon">🐳</span><div><div class="s-name">Docker</div><div class="s-role">Containerisation · Deployment</div></div></div>
-      <div class="stack-item"><span class="s-icon">☁️</span><div><div class="s-name">AWS EC2</div><div class="s-role">Production Hosting</div></div></div>
+      <div class="stack-item"><span class="s-icon">☁️</span><div><div class="s-name">GCP</div><div class="s-role">Production Hosting · Quarterly SLA Delivery</div></div></div>
       <div class="stack-item"><span class="s-icon">📊</span><div><div class="s-name">Matplotlib · Seaborn · Plotly</div><div class="s-role">Visualisation · Insight Reporting</div></div></div>
       <div class="stack-item"><span class="s-icon">📓</span><div><div class="s-name">Jupyter Notebook · VS Code</div><div class="s-role">Development · Experimentation</div></div></div>
     </div>
