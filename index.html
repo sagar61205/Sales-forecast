@@ -436,7 +436,7 @@
   <div class="section">
     <h2>🎯 Business Problem</h2>
     <p class="prose">The client operated in pharmaceutical supply chain management where procurement decisions required reliable forward visibility into demand. Without it, the team regularly faced two failure modes: stockouts on high-margin products and overstock on slow-moving lines, both directly eroding profitability.</p>
-    <p class="prose">Manual forecasting was inconsistent, took significant analyst time, and failed to account for clear seasonality patterns already present in the data. The goal was to build an automated system that gave the procurement team reliable 12-month projections per supplier, along with actionable intelligence on margin trends and seasonal behaviour.</p>
+    <p class="prose">Manual forecasting was inconsistent, took significant analyst time, and failed to account for clear seasonality patterns already present in the data. The goal was to build a repeatable forecasting system that gave the procurement team reliable 12-month projections per supplier, along with actionable intelligence on margin trends and seasonal behaviour, delivered via Tableau dashboards built on top of BigQuery outputs.</p>
   </div>
 
   <div class="section">
@@ -484,9 +484,9 @@
 
       <div class="cs-item"><div class="cs-row">
         <div class="cs-challenge"><div class="cs-label challenge-label">CHALLENGE</div>
-          <div class="cs-text"><strong>Production accessibility:</strong> moving from a research notebook to a stable system that the procurement team could use without data science involvement.</div></div>
+          <div class="cs-text"><strong>Delivery to business stakeholders:</strong> moving from ad-hoc analysis to a repeatable quarterly pipeline with outputs stored in BigQuery and surfaced via Tableau dashboards for procurement and commercial teams.</div></div>
         <div class="cs-solution"><div class="cs-label solution-label">SOLUTION</div>
-          <div class="cs-text"><strong>Structured quarterly delivery pipeline</strong> on GCP, giving the procurement team reliable 12-month projections per supplier on a scheduled SLA basis.</div></div>
+          <div class="cs-text"><strong>Quarterly delivery pipeline</strong> on GCP producing forecasted sales values stored in BigQuery; the data visualisation team built Tableau dashboards on top for stakeholder consumption.</div></div>
       </div></div>
 
     </div>
